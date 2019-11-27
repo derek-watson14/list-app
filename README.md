@@ -11,6 +11,7 @@ I decided that to really cement what I had learned, I would have to add a few th
 I now quite like how it is shaping up and want to continue adding more features to make it my own.
 
 ### Future Feature Ideas:
+##### Ideas listed from soonest to furthest away
 
 * #### Confirm delete button:
 Should appear upon click on trash can icon
