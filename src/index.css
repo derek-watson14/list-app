@@ -1,3 +1,7 @@
+html{
+  margin-left: calc(100vw - 100%);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,9 +9,158 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #64666A;
+}
+.App{
+  background: #53565A;
+  margin: 25px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+  box-shadow: 10px 10px 10px #333;
+  border-radius: 5px;
+}
+.navbar{
+  padding: 10px 26px;
+  text-align: left;
+  background: #981E32;
+  color: #fff;
+  border-radius: 5px;
+}
+.navbar p{
+  color: #eee;
+}
+.navbar h1{
+  margin: 10px 0;
+}
+.book-list{
+  margin: 20px 20px 30px 20px;
+}
+.book-list ul{
+  padding: 0;
+  list-style-type: none;
+  max-height: 315px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.book-list li{
+  background: #981E32;
+  border-radius: 4px;
+  border-left: 6px solid #981E32;
+  padding: 10px;
+  position: relative;
+  width: 95%;
+}
+.book-list li:hover{
+  background: #333;
+  border-left: 6px solid #333;
+}
+.book-list .in-progress{
+  border-left: 6px solid #ddd;
+}
+.book-list .in-progress:hover{
+  border-left: 6px solid #ddd;
+}
+.book-list .dragging {
+  background: #333;
+  border-left: 6px solid #333;
+  box-shadow: 8px 8px 12px #222;
+}
+.book-list .dragging.in-progress {
+  background: #333;
+  border-left: 6px solid #ddd;
+}
+.book-list li .book-info-remove{
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+.book-list .title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.book-list .author{
+  font-size: 0.8em;
+  color: #ddd;
+}
+.empty{
+  margin: 20px;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+form{
+  padding: 5px 20px 10px 20px;
+  transition: height 200ms, opacity 200ms;
+}
+.menu-button{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 124px;
+  user-select: none;
+  cursor: pointer;
+  margin: 20px 0px 20px 25px;
+}
+.menu-button h3{
+  margin: 0px;
+}
+.icon-container{
+  display: flex;
+  padding-bottom: 3px;
+  align-self: flex-end;
+}
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #333;
+  color: #fff;
+  border: 0;
+}
+input[type='text']:hover{
+  opacity: 0.5;
+}
+input[type='submit']{
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input[type='submit']:hover{
+  background: #fff;
+}
+.reading {
+  font-size: 0.8em;
+  color: #ddd;
+}
+.toggle-reading {
+  position: absolute;
+  right: 5px;
+  top: 7px;
+  cursor: pointer;
+}
+.toggle-reading:hover {
+  color: #fff;
+}
+.remove-book {
+  position: absolute;
+  right: 35px;
+  top: 14px;
+  cursor: pointer;
+}
+.remove-book:hover {
+  color: #fff;
+}
+hr {
+  background: #ddd;
+  border: 1px solid #ddd;
+  width: 75%;
+}
+.container {
+  margin-bottom: 10px;
 }
