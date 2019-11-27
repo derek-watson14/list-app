@@ -13,18 +13,18 @@ I now quite like how it is shaping up and want to continue adding more features 
 ### Future Feature Ideas:
 
 * #### Confirm delete button:
-  --* Should appear upon click on trash can icon
+Should appear upon click on trash can icon
 
 * #### Rearrange Handle:
-  --* A six-dot handle on the left end of the list items that allows the user to rearrange
+A six-dot handle on the left end of the list items that allows the user to rearrange
 
 * #### Edit color scheme:
-  --* Either preset or choose your own color scheme options
+Either preset or choose your own color scheme options
 
 * #### Multiple lists:
-  --* The user can create multiple lists and select one to look at at a given moment
+The user can create multiple lists and select one to look at at a given moment
 
 * #### Database integration:
-  --* Save information in a database and not on local storage
+Save information in a database and not on local storage
 
 
