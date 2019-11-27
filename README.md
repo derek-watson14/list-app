@@ -1,68 +1,30 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# List App
 
-In the project directory, you can run:
+### Short development history
 
-### `npm start`
+This web application is based on the 'Booklist'section of Net Ninja's "React Context and Hooks" YouTube tutorial. I was watching to tutorial to get a basic grasp on (who'd have guessed) React context and hooks for another tutorial I was also working on.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I decided that to really cement what I had learned, I would have to add a few things to the raw end-of-tutorial project. I first just added a button that allowed the user to mark a book as currently being read. I then decided to add an icon for deletion, so it was harder to accidently do so. Next I wanted the user to have the ability to rearrage the list via drag and drop, so I found the wonerful React Beautiful Drag and Drop library by Atlassian ([found here](https://github.com/atlassian/react-beautiful-dnd)). Next I made the 'add a book' menu retractable and changed a few other styles.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I now quite like how it is shaping up and want to continue adding more features to make it my own.
 
-### `npm test`
+### Future Feature Ideas:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* #### Confirm delete button:
+  --* Should appear upon click on trash can icon
 
-### `npm run build`
+* #### Rearrange Handle:
+  --* A six-dot handle on the left end of the list items that allows the user to rearrange
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* #### Edit color scheme:
+  --* Either preset or choose your own color scheme options
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* #### Multiple lists:
+  --* The user can create multiple lists and select one to look at at a given moment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* #### Database integration:
+  --* Save information in a database and not on local storage
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
